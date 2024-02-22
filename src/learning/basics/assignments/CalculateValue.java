@@ -11,6 +11,19 @@ public class CalculateValue {
         System.out.print("enter num2");
         int num2 = sc.nextInt();
         System.out.print("enter symbol");
+        char ch = sc.next().trim().charAt(0);
+        if(ch == '+'){
+            System.out.println(num1 + num2);
+        }
+        if(ch == '-'){
+            System.out.println(num1 - num2);
+        }
+        if(ch == '*'){
+            System.out.println(num1 * num2);
+        }
+        if(ch == '/'){
+            System.out.println(num1/num2);
+        }
 
     }
 }
